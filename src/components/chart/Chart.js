@@ -7,17 +7,22 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
-
-const data = [
-  { name: "January", Total: 1200 },
-  { name: "February", Total: 2100 },
-  { name: "March", Total: 800 },
-  { name: "April", Total: 1600 },
-  { name: "May", Total: 900 },
-  { name: "June", Total: 1700 },
-];
+import text from "../../text.json";
+import { useContext } from "react";
+import { LanguageContext } from "../../context/languageContext";
 
 const Chart = ({ aspect, title }) => {
+  const { language } = useContext(LanguageContext);
+
+  const data = [
+    { name: text.chart.january[language], Total: 1200 },
+    { name: text.chart.february[language], Total: 2100 },
+    { name: text.chart.march[language], Total: 800 },
+    { name: text.chart.april[language], Total: 1600 },
+    { name: text.chart.may[language], Total: 900 },
+    { name: text.chart.june[language], Total: 1700 },
+  ];
+
   return (
     <div className="chart">
       <div className="title">{title}</div>

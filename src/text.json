@@ -1,0 +1,162 @@
+{
+  "sidebar": {
+    "main": {
+      "en": "MAIN",
+      "ja": "メイン"
+    },
+    "dashboard": {
+      "en": "Dashboard",
+      "ja": "ダッシュボード"
+    },
+    "lists": {
+      "en": "LISTS",
+      "ja": "リスト"
+    },
+    "users": {
+      "en": "Users",
+      "ja": "ユーザー"
+    },
+    "products": {
+      "en": "Products",
+      "ja": "商品"
+    },
+    "orders": {
+      "en": "Orders",
+      "ja": "注文"
+    },
+    "delivery": {
+      "en": "delivery",
+      "ja": "配送"
+    },
+    "useful": {
+      "en": "USEFUL",
+      "ja": "機能"
+    },
+    "stats": {
+      "en": "Stats",
+      "ja": "統計"
+    },
+    "notifications": {
+      "en": "Notifications",
+      "ja": "通知"
+    },
+    "service": {
+      "en": "SERVICE",
+      "ja": "サービス"
+    },
+    "systemhealth": {
+      "en": "System Health",
+      "ja": "システム状態"
+    },
+    "logs": {
+      "en": "Logs",
+      "ja": "ログ"
+    },
+    "settings": {
+      "en": "Settings",
+      "ja": "設定"
+    },
+    "user": {
+      "en": "USER",
+      "ja": "ユーザー"
+    },
+    "profile": {
+      "en": "Profile",
+      "ja": "プロフィール"
+    },
+    "logout": {
+      "en": "Logout",
+      "ja": "ログアウト"
+    }
+  },
+  "navbar": {
+    "search": {
+      "en": "Search",
+      "ja": "検索"
+    }
+  },
+  "widgets": {
+    "users": {
+      "en": "USERS",
+      "ja": "ユーザー",
+      "seeall": {
+        "en": "See all users",
+        "ja": "すべて見る"
+      }
+    },
+    "orders": {
+      "en": "ORDERS",
+      "ja": "注文",
+      "viewall": {
+        "en": "View all orders",
+        "ja": "すべて見る"
+      }
+    },
+    "earnings": {
+      "en": "EARNINGS",
+      "ja": "収入",
+      "viewnet": {
+        "en": "View net earnings",
+        "ja": "純利益を見る"
+      }
+    },
+    "balance": {
+      "en": "BALANCE",
+      "ja": "残高",
+      "seedetails": {
+        "en": "See details",
+        "ja": "詳細を見る"
+      }
+    }
+  },
+  "featured": {
+    "totalrevenue": {
+      "en": "Total Revenue",
+      "ja": "総収入"
+    },
+    "chartdesc1": {
+      "en": "Total sales made today",
+      "ja": "今日の総売上高"
+    },
+    "target": {
+      "en": "Target",
+      "ja": "目標"
+    }
+  },
+  "chart": {
+    "title": {
+      "en": "Last 6 Months (Revenue)",
+      "ja": "過去6ヵ月の収益"
+    },
+    "january": {
+      "en": "January",
+      "ja": "一月"
+    },
+    "february": {
+      "en": "February",
+      "ja": "二月"
+    },
+    "march": {
+      "en": "March",
+      "ja": "三月"
+    },
+    "april": {
+      "en": "April",
+      "ja": "四月"
+    },
+    "may": {
+      "en": "May",
+      "ja": "五月"
+    },
+    "june": {
+      "en": "june",
+      "ja": "六月"
+    }
+  },
+  "home": {
+    "transactiontitle": {
+      "en": "Latest Transactions",
+      "ja": "最新の取引"
+    }
+  }
+}

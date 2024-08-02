@@ -6,20 +6,26 @@ import {
   ShoppingCartOutlined,
 } from "@mui/icons-material";
 import "./widget.scss";
+import { useContext } from "react";
+import { LanguageContext } from "../../context/languageContext";
+import text from "../../text.json";
 
 const Widget = ({ type }) => {
+  const { language } = useContext(LanguageContext);
+
   let data;
 
   // temporary
   const amount = 100;
   const diff = 20;
+  console.log(text.widgets.users.ja);
 
   switch (type) {
     case "user":
       data = {
-        title: "USERS",
+        title: text.widgets.users[language],
         isMoney: false,
-        link: "See all users",
+        link: text.widgets.users.seeall[language],
         icon: (
           <PersonOutlined
             className="icon"
@@ -30,9 +36,9 @@ const Widget = ({ type }) => {
       break;
     case "order":
       data = {
-        title: "ORDERS",
+        title: text.widgets.orders[language],
         isMoney: false,
-        link: "View all users",
+        link: text.widgets.orders.viewall[language],
         icon: (
           <ShoppingCartOutlined
             className="icon"
@@ -46,9 +52,9 @@ const Widget = ({ type }) => {
       break;
     case "earning":
       data = {
-        title: "EARNINGS",
+        title: text.widgets.earnings[language],
         isMoney: true,
-        link: "View net earnings",
+        link: text.widgets.earnings.viewnet[language],
         icon: (
           <MonetizationOnOutlined
             className="icon"
@@ -62,9 +68,9 @@ const Widget = ({ type }) => {
       break;
     case "balance":
       data = {
-        title: "BALANCE",
+        title: text.widgets.balance[language],
         isMoney: true,
-        link: "See details",
+        link: text.widgets.balance.seedetails[language],
         icon: (
           <AccountBalanceWalletOutlined
             className="icon"
