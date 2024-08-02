@@ -8,6 +8,10 @@
       padding: 20px;
       gap: 20px;
     }
+    .widgets > div {
+      display: flex;
+      flex: 1;
+    }
     .charts {
       padding: 5px 20px;
     }
